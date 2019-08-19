@@ -23,7 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://localhost/sekolahku/';
+$config['base_url'] = '';
 
 /*
 |--------------------------------------------------------------------------
@@ -35,7 +35,7 @@ $config['base_url'] = 'http://localhost/sekolahku/';
 | variable so that it is blank.
 |
 */
-$config['index_page'] = '';
+$config['index_page'] = 'index.php';
 
 /*
 |--------------------------------------------------------------------------
@@ -324,7 +324,7 @@ $config['cache_query_string'] = FALSE;
 | https://codeigniter.com/user_guide/libraries/encryption.html
 |
 */
-$config['encryption_key'] = 'myschoolmyadventure';
+$config['encryption_key'] = '';
 
 /*
 |--------------------------------------------------------------------------
@@ -378,7 +378,7 @@ $config['encryption_key'] = 'myschoolmyadventure';
 |
 */
 $config['sess_driver'] = 'files';
-$config['sess_cookie_name'] = 'sekolahku_session';
+$config['sess_cookie_name'] = 'ci_session';
 $config['sess_expiration'] = 7200;
 $config['sess_save_path'] = NULL;
 $config['sess_match_ip'] = FALSE;
